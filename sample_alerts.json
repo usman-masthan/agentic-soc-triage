@@ -1,0 +1,82 @@
+[
+  {
+    "alert_id": "FUS-001",
+    "timestamp": "2024-06-01T12:05:15Z",
+    "discipline": "Cyber Security",
+    "rule_name": "Successful Brute Force on Trading Gateway",
+    "severity": "Critical",
+    "source_ip": "185.220.101.5",
+    "target_user": "svc_fix_gateway",
+    "is_critical_asset": true
+  },
+  {
+    "alert_id": "FUS-002",
+    "timestamp": "2024-06-01T12:14:22Z",
+    "discipline": "Cyber Security",
+    "rule_name": "Phishing Link Clicked",
+    "severity": "High",
+    "source_ip": "192.168.1.45",
+    "target_user": "alice_finance",
+    "is_critical_asset": false
+  },
+  {
+    "alert_id": "FUS-003",
+    "timestamp": "2024-06-01T12:22:00Z",
+    "discipline": "Cyber Security",
+    "rule_name": "Suspicious Process Execution (Ransomware Behavior)",
+    "severity": "Critical",
+    "source_ip": "10.0.4.112",
+    "target_user": "system",
+    "is_critical_asset": true
+  },
+  {
+    "alert_id": "FUS-004",
+    "timestamp": "2024-06-01T12:35:10Z",
+    "discipline": "Financial Crime",
+    "rule_name": "Anomalous High-Value Settlement Transaction",
+    "severity": "High",
+    "source_ip": "10.12.8.44",
+    "target_user": "settlement_operator_02",
+    "is_critical_asset": true
+  },
+  {
+    "alert_id": "FUS-005",
+    "timestamp": "2024-06-01T12:42:05Z",
+    "discipline": "Physical Security",
+    "rule_name": "Data Center Badge Access with Active Remote Session",
+    "severity": "High",
+    "source_ip": "172.16.50.12",
+    "target_user": "bob_contractor",
+    "is_critical_asset": true
+  },
+  {
+    "alert_id": "FUS-006",
+    "timestamp": "2024-06-01T12:48:30Z",
+    "discipline": "Cyber Security",
+    "rule_name": "Anomalous Cloud API Activity",
+    "severity": "Medium",
+    "source_ip": "45.33.22.11",
+    "target_user": "aws_service_account",
+    "is_critical_asset": true
+  },
+  {
+    "alert_id": "FUS-007",
+    "timestamp": "2024-06-01T12:55:00Z",
+    "discipline": "Threat Intelligence",
+    "rule_name": "Internal Domain Credentials Exposed on Public Paste Site",
+    "severity": "Medium",
+    "source_ip": "External_Feed",
+    "target_user": "dev_lead_01",
+    "is_critical_asset": false
+  },
+  {
+    "alert_id": "FUS-008",
+    "timestamp": "2024-06-01T13:01:05Z",
+    "discipline": "Cyber Security",
+    "rule_name": "Internal Network Port Scanning",
+    "severity": "Low",
+    "source_ip": "192.168.1.201",
+    "target_user": "guest_wifi_user",
+    "is_critical_asset": false
+  }
+]

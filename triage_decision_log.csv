@@ -1,0 +1,9 @@
+alert_id,timestamp,discipline,rule_name,severity,is_critical_asset,source_ip,target_user,assigned_tier,target_sla,triage_reason
+FUS-001,2024-06-01T12:05:15Z,Cyber Security,Successful Brute Force on Trading Gateway,Critical,True,185.220.101.5,svc_fix_gateway,Tier 2 (L2),15 mins,Critical FMI Asset alert (Cyber Security): Critical severity requires immediate L2 escalation.
+FUS-002,2024-06-01T12:14:22Z,Cyber Security,Phishing Link Clicked,High,False,192.168.1.45,alice_finance,Tier 2 (L2),30 mins,Cyber Security alert: High severity requires senior analyst investigation.
+FUS-003,2024-06-01T12:22:00Z,Cyber Security,Suspicious Process Execution (Ransomware Behavior),Critical,True,10.0.4.112,system,Tier 2 (L2),15 mins,Critical FMI Asset alert (Cyber Security): Critical severity requires immediate L2 escalation.
+FUS-004,2024-06-01T12:35:10Z,Financial Crime,Anomalous High-Value Settlement Transaction,High,True,10.12.8.44,settlement_operator_02,Tier 2 (L2),30 mins,Critical FMI Asset alert (Financial Crime): High severity requires immediate L2 escalation.
+FUS-005,2024-06-01T12:42:05Z,Physical Security,Data Center Badge Access with Active Remote Session,High,True,172.16.50.12,bob_contractor,Tier 2 (L2),30 mins,Critical FMI Asset alert (Physical Security): High severity requires immediate L2 escalation.
+FUS-006,2024-06-01T12:48:30Z,Cyber Security,Anomalous Cloud API Activity,Medium,True,45.33.22.11,aws_service_account,Tier 2 (L2),60 mins,Escalated: Medium severity Cyber Security event directly impacting critical FMI infrastructure.
+FUS-007,2024-06-01T12:55:00Z,Threat Intelligence,Internal Domain Credentials Exposed on Public Paste Site,Medium,False,External_Feed,dev_lead_01,Tier 1 (L1),60 mins,Standard baseline triage for threat intelligence event.
+FUS-008,2024-06-01T13:01:05Z,Cyber Security,Internal Network Port Scanning,Low,False,192.168.1.201,guest_wifi_user,Tier 1 (L1),120 mins,Standard baseline triage for cyber security event.

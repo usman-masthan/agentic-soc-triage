@@ -1,0 +1,22 @@
+{
+  "summary_metadata": {
+    "total_alerts_ingested": 8,
+    "tier_1_l1_routed": 2,
+    "tier_2_l2_escalated": 6,
+    "escalation_rate_percent": "75.0%",
+    "critical_asset_exposure_count": 5,
+    "critical_asset_exposure_rate": "62.5%",
+    "total_sla_workload_hours": 6.0
+  },
+  "discipline_breakdown": {
+    "Cyber Security": 5,
+    "Financial Crime": 1,
+    "Physical Security": 1,
+    "Threat Intelligence": 1
+  },
+  "actionable_recommendations": [
+    "Allocate immediate L2 staffing: 6 incidents (75.0%) require senior response within expedited SLAs.",
+    "FMI Safeguard: 5 incidents target critical financial assets, requiring joint review with Infrastructure Engineering.",
+    "Cross-Discipline Alignment: Review alerts originating from Cyber Security, Financial Crime, Physical Security, Threat Intelligence."
+  ]
+}
